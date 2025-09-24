@@ -37,3 +37,15 @@ The tool sends HTTP POST requests to OFREP endpoints (`/ofrep/v1/evaluate/flags`
 - Test flag evaluation responses
 - Pass evaluation context as key-value pairs
 - Query specific flags by key or evaluate all flags
+
+## Installation
+
+### Using pipx (recommended)
+```bash
+pipx install git+https://github.com/your-username/ofrep-validator.git
+```
+
+### Local development
+```bash
+pip install -e .
+```
